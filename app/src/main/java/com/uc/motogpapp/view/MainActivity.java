@@ -1,8 +1,10 @@
-package com.uc.motogpapp;
+package com.uc.motogpapp.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.uc.motogpapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
