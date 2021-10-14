@@ -9,13 +9,16 @@
         android:id="@+id/splashFragment"
         android:name="com.uc.motogpapp.view.splash.SplashFragment"
         android:label="splash_fragment"
-        tools:layout="@layout/splash_fragment" >
+        tools:layout="@layout/splash_fragment">
         <action
             android:id="@+id/action_splashFragment_to_loginFragment"
             app:destination="@id/loginFragment"
             app:popEnterAnim="@anim/nav_default_enter_anim"
             app:popUpTo="@id/loginFragment"
             app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_riderFragment"
+            app:destination="@id/riderFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -33,4 +36,9 @@
         android:name="com.uc.motogpapp.view.register.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/riderFragment"
+        android:name="com.uc.motogpapp.view.rider.RiderFragment"
+        android:label="fragment_rider"
+        tools:layout="@layout/fragment_rider" />
 </navigation>

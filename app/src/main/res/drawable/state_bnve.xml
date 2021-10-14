@@ -7,8 +7,8 @@
         android:title="active" />
 
     <item
-        android:color="@android:color/white"
-        android:drawable="@color/dark_race"
+        android:color="@color/dark_race"
+        android:drawable="@color/white"
         android:state_checked="false"
         android:title="not_active" />
 
