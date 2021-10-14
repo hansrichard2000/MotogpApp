@@ -9,4 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="racing_red">#FFBD162C</color>
     <color name="dark_race">#FF212529</color>
+    <color name="red_race">#FF9a0033</color>
+    <color name="dark_red_race">#FF730e2c</color>
+    <color name="brown_dark">#FF4d1123</color>
+    <color name="black_red">#FF2a0f16</color>
 </resources>

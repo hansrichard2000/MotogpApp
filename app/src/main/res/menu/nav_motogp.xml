@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ridersFragment"
+        android:icon="@drawable/ic_baseline_directions_bike_24"
+        android:title="@string/riders" />
+
+    <item
+        android:id="@+id/teamsFragment"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:title="@string/teams" />
+
+    <item
+        android:id="@+id/constructorFragment"
+        android:icon="@drawable/ic_baseline_apartment_24"
+        android:title="@string/construct"/>
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/Profile" />
+</menu>
