@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?attr/colorPrimaryVariant"
-    tools:context=".view.rider.RiderFragment">
+    tools:context=".view.team.TeamFragment">
 
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar_riders"
-        android:layout_width="0dp"
+        android:id="@+id/toolbar_team"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimaryVariant"
         android:minHeight="?attr/actionBarSize"
@@ -18,8 +18,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="2020 Riders"
-        app:titleTextColor="@color/white" />
+        app:title="2020 Teams"
+        app:titleTextColor="@color/motogp_launcher_background" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
@@ -28,19 +28,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar_riders">
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_team">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:background="@drawable/content_overlay_dark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:listitem="@layout/cv_rider" />
-
+            tools:listitem="@layout/cv_team"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
